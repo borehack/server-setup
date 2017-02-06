@@ -8,3 +8,5 @@ git config user.name "borehack"
 git config --global user.name "borehack"
 git config user.email $1 
 git config --global user.email $1 
+git config credential.helper store
+git config --global credential.helper store
