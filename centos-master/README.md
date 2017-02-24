@@ -11,3 +11,10 @@ vi /etc/fstab
 # add following line at bottom
 //<remote samba share> /mnt/<mount point> cifs username=<username>,password=<password> 0 0
 ```
+
+Ubuntu:
+
+```sh
+sudo apt-get install cifs-utils 
+```
+
